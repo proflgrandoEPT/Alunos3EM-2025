@@ -22,7 +22,6 @@ Para confirmar que o envio foi concluído:
 Cada desenvolvedor é representado em uma linha da tabela com as seguintes colunas:
 - **Nome**: Nome do desenvolvedor.
 - **Link do Site**: Link para o portfólio ou site pessoal.
-- **Descrição da Tecnologia**: Breve descrição das tecnologias usadas no portfólio.
 - **Rede Social**: Link para o perfil social do desenvolvedor.
 - **GitHub**: Link para o perfil GitHub.
 
@@ -39,7 +38,6 @@ Aqui está um exemplo da estrutura de dados, que também pode ser encontrada no 
 <tr>
     <td>Leonardo Grando</td>
     <td><a href="https://lgrando1.github.io" target="_blank">Página Leonardo Grando</a></td>
-    <td>Este site estático utiliza o <a href="https://gohugo.io/" target="_blank">Framework Hugo</a> com o <a href="https://hugoblox.com/templates/details/academic-cv/" target="_blank">tema provido pela HugoBlox</a> e está hospedado no GitHub Pages.</td>
     <td><a href="https://www.linkedin.com/in/lgrando123" target="_blank">LinkedIn</a></td>
     <td><a href="https://github.com/proflgrando" target="_blank">GitHub</a></td>
 </tr>
@@ -79,9 +77,9 @@ Aqui está um exemplo da estrutura de dados, que também pode ser encontrada no 
    - Insira suas informações seguindo o modelo da tabela. Exemplo:
 
      ```markdown
-     | Nome             | Link do Site                                                                            | Descrição da Tecnologia                                                                                                                                                | Rede Social                                         | GitHub                                         |
-     |------------------|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|------------------------------------------------|
-     | Seu Nome         | [Seu Portfólio](https://seuportfolio.com)                                               | Breve descrição sobre as tecnologias que você usou para construir seu site ou portfólio.                                         | [LinkedIn](https://www.linkedin.com/in/seu-perfil) | [GitHub](https://github.com/seuperfil)         |
+     | Nome             | Link do Site                                                                            | Rede Social                                         | GitHub                                         |
+     |------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------|------------------------------------------------|
+     | Seu Nome         | [Seu Portfólio](https://seuportfolio.com)                                               | [LinkedIn](https://www.linkedin.com/in/seu-perfil)  | [GitHub](https://github.com/seuperfil)         |
      ```
 
 4. **Commit das Alterações e Envio do Pull Request**:
